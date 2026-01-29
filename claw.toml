@@ -1,0 +1,21 @@
+name = "rails"
+version = "0.1.0"
+claw-spec = 1
+description = "Claude Code skills for Rails 7+/8 projects (Hotwire, ViewComponents, TDD)"
+
+imports = ["CLAUDE.md", "stacks/rails/CLAUDE.md"]
+
+[provides]
+skills = [
+  "core/skills/ruby-style",
+  "stacks/rails/skills/rails-models",
+  "stacks/rails/skills/rails-controllers",
+  "stacks/rails/skills/rails-7-params",
+  "stacks/rails/skills/rails-8-params",
+  "stacks/rails/skills/stimulus",
+  "stacks/rails/skills/turbo",
+  "stacks/rails/skills/view-components",
+  "stacks/rails/skills/rails-frontend",
+]
+agents = ["stacks/rails/agents/rails-expert.md"]
+commands = []
